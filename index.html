@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP.CO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="start">
+        <p class="start_p">
+          Sign up and get 20% off to your first order.
+          <span style="color: #ffffff"
+            ><a class="now" href="./login.html">Sign Up Now</a></span
+          >
+        </p>
+        <p class="start_pp">X</p>
+      </div>
+     <header>
+  <div class="header-container">
+    <button class="menu-toggle" id="menuToggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <h3 class="logo">SHOP.CO</h3>
+    
+    <nav id="navMenu">
+      <ul class="navigator">
+        <li>
+          <select id="choose">
+            <option value="">Shop</option>
+          </select>
+        </li>
+        <li><a class="nav_links" href="#">On Sale</a></li>
+        <li><a class="nav_links" href="#">New Arrivals</a></li>
+        <li><a class="nav_links" href="#">Brands</a></li>
+      </ul>
+
+      <div class="search-wrapper">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input class="search" type="text" placeholder="Search for products..." />
+      </div>
+    </nav>
+
+    <div class="icons">
+      <button id="cartBtn" class="icon-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span id="cartCount">0</span>
+      </button>
+      <button class="icon-btn">
+        <i class="fa-regular fa-circle-user"></i>
+      </button>
+    </div>
+  </div>
+
+</header>
+      <div class="wrapper">
+        <div class="wrapper_in">
+          <div class="wrapper_text">
+          <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+          <p>
+            Browse through our diverse range of meticulously crafted garments,
+            designed to bring out your individuality and cater to your sense of
+            style.
+          </p>
+          <button class="shopping">Shop Now</button>
+        </div>
+        <div class="rating">
+          <div class="counts">
+            <p class="nums">200+</p>
+            <p>International Brands</p>
+          </div>
+          <div class="counts">
+            <p class="nums">2,000+</p>
+            <p>High-Quality Products</p>
+          </div>
+          <div class="counts">
+            <p class="nums">30,000++</p>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+        <img class="models" src="./images/photo_2026-01-08_10-40-02.jpg" alt="assa">
+      </div>
+
+      <div class="wrapper_line">
+        <img class="vectors" src="./images/Vector (1).png" alt=" brands" />
+        <img class="vectors" src="./images/zara-logo-1 1.png" alt=" brands" />
+        <img class="vectors" src="./images/gucci-logo-1 1.png" alt=" brands" />
+        <img class="vectors" src="./images/prada-logo-1 1.png" alt=" brands" />
+        <img class="vectors" src="./images/Group.png" alt=" brands" />
+      </div>
+      <div class="wrapper_card">
+        <h3 class="Arrivals">NEW ARRIVALS</h3>
+        <div class="cart">
+          <div class="carts">
+            <img src="./images/Frame 32.png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">T-SHIRT WITH TAPE DETAILS</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$240</p>
+                <button onclick="addToCart('T-SHIRT WITH TAPE DETAILS', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="carts">
+            <img src="./images/Frame 33.png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">SKINNY FIT JEANS</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$130 </p>
+                <button onclick="addToCart('SKINNY FIT JEANS', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="carts">
+            <img src="./images/Frame 34.png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">CHECKERED SHIRT</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$212</p>
+                    <button onclick="addToCart('CHECKERED SHIRT', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="carts">
+            <img src="./images/Frame 38.png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">SLEEVE STRIPED T-SHIRT</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$145</p>
+                  <button onclick="addToCart('SLEEVE STRIPED T-SHIRT', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="view">View All</button>
+      </div>
+
+      <hr />
+      <div class="wrapper_second_cart">
+        <h3 class="Arrivals">TOP SELLING</h3>
+        <div class="cart">
+          <div class="carts">
+            <img src="./images/Frame 32 (1).png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">VERTICAL STRIPED SHIRT</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$80</p>
+                  <button onclick="addToCart('VERTICAL STRIPED SHIRT', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="carts">
+            <img src="./images/Frame 33 (1).png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">T-SHIRT WITH TAPE DETAILS</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$210</p>
+                 <button onclick="addToCart('COURAGE GRAPHIC T-SHIRT', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="carts">
+            <img src="./images/Frame 34 (1).png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">T-SHIRT WITH TAPE DETAILS</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$120</p>
+                <button onclick="addToCart('LOOSE FIT BERMUDA SHORTS', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="carts">
+            <img src="./images/Frame 38 (1).png" alt="kiyim" />
+            <div class="carts_text">
+              <p class="carts_h3">T-SHIRT WITH TAPE DETAILS</p>
+              <div class="rating_num">
+                <img src="./images/Frame 35.png" alt="rating" />
+              </div>
+              <div class="add_to_cart">
+                <p>$120</p>
+                 <button onclick="addToCart('FADED SKINNY JEANS', 120)" class="add">ADD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="view">View All</button>
+      </div>
+      <div class="wrapper_box">
+        <h3 class="arrive">BROWSE BY DRESS STYLE</h3>
+        <div class="grid">
+          <img class="casual" src="./images/Frame 61.png" alt="boy" />
+          <img class="casual" src="./images/Frame 62.png" alt="boy" />
+          <img class="casual" src="./images/Frame 64.png" alt="boy" />
+          <img class="casual" src="./images/Frame 63.png" alt="girl" />
+        </div>
+      </div>
+      <div class="wrapper_happy">
+        <div class="happy_icon">
+          <h3 class="customer">OUR HAPPY CUSTOMERS</h3>
+          <div class="icons_happy">
+            <button class="solid">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="solid">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="rating_carts">
+          <div class="rating_cart">
+            <img src="./images/Frame 10.png" alt="rating" />
+            <div class="tick">
+              <p>Sarah M.</p>
+              
+              <img src="./images/Frame (7).png" alt="tick" />
+            </div>
+            <p class="blown">
+              "I'm blown away by the quality and style of the clothes I received
+              from Shop.co. From casual wear to elegant dresses, every piece
+              I've bought has exceeded my expectations.”
+            </p>
+          </div>
+          <div class="rating_cart">
+            <img src="./images/Frame 10.png" alt="rating" />
+            <div class="tick">
+              <p>Sarah M.</p>
+              <img src="./images/Frame (7).png" alt="tick" />
+            </div>
+            <p class="blown">
+              "I'm blown away by the quality and style of the clothes I received
+              from Shop.co. From casual wear to elegant dresses, every piece
+              I've bought has exceeded my expectations.”
+            </p>
+          </div>
+          <div class="rating_cart">
+            <img src="./images/Frame 10.png" alt="rating" />
+            <div class="tick">
+              <p>Alex K.</p>
+              <img src="./images/Frame (7).png" alt="tick" />
+            </div>
+            <p class="blown">
+              "I'm blown away by the quality and style of the clothes I received
+              from Shop.co. From casual wear to elegant dresses, every piece
+              I've bought has exceeded my expectations.”
+            </p>
+          </div>
+          <div class="rating_cart">
+            <img src="./images/Frame 10.png" alt="rating" />
+            <div class="tick">
+              <p>James L.</p>
+              <img src="./images/Frame (7).png" alt="tick" />
+            </div>
+            <p class="blown">
+              "I'm blown away by the quality and style of the clothes I received
+              from Shop.co. From casual wear to elegant dresses, every piece
+              I've bought has exceeded my expectations.”
+            </p>
+          </div>
+          <div class="rating_cart">
+            <img src="./images/Frame 10.png" alt="rating" />
+            <div class="tick">
+              <p>Mooen.</p>
+              <img src="./images/Frame (7).png" alt="tick" />
+            </div>
+            <p class="blown">
+              "I'm blown away by the quality and style of the clothes I received
+              from Shop.co. From casual wear to elegant dresses, every piece
+              I've bought has exceeded my expectations.”
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="big_card">
+        <h3>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
+        <div class="btnss">
+          <input
+            class="email"
+            type="email"
+            placeholder="Enter your email address"
+          />
+          <button class="Subscribe">Subscribe to Newsletter</button>
+        </div>
+      </div>
+      <footer>
+        <div class="footer_bot">
+        <div class="footer_cards">
+          <div class="footer_card">
+            <h3>SHOP.CO</h3>
+            <p>
+              We have clothes that suits your style and which you’re proud to
+              wear. From women to men.
+            </p>
+            <div class="footer_icons">
+              <button class="brands">
+                <i class="fa-brands fa-twitter"></i>
+              </button>
+              <button class="brands">
+                <i class="fa-brands fa-instagram"></i>
+              </button>
+              <button class="brands">
+                <i class="fa-brands fa-facebook"></i>
+              </button>
+              <button class="brands">
+                <i class="fa-brands fa-github"></i>
+              </button>
+            </div>
+          </div>
+         <div class="footer_both">
+           <div class="footer_cart">
+            <h3>Company</h3>
+            <p>About</p>
+            <p>Features</p>
+            <p>Works</p>
+            <p>Career</p>
+          </div>
+          <div class="footer_cart">
+            <h3>Help</h3>
+            <p>About</p>
+            <p>Features</p>
+            <p>Works</p>
+            <p>Career</p>
+          </div>
+        </div>
+         <div class="footer_both">
+           <div class="footer_cart">
+            <h3>Company</h3>
+            <p>About</p>
+            <p>Features</p>
+            <p>Works</p>
+            <p>Career</p>
+          </div>
+          <div class="footer_cart">
+            <h3>Help</h3>
+            <p>About</p>
+            <p>Features</p>
+            <p>Works</p>
+            <p>Career</p>
+          </div>
+        </div>  
+        </div>
+  <hr>
+          <div class="footer_bottom">
+            
+            <p>Shop.co © 2000-2023, All Rights Reserved</p>
+            <div class="bottom_images">
+              <img src="./images/Badge.png" alt="badge">
+              <img src="./images/Badge (1).png" alt="badge">
+              <img src="./images/Badge (2).png" alt="badge">
+              <img src="./images/Badge (3).png" alt="badge">
+              <img src="./images/Badge (4).png" alt="badge">
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
